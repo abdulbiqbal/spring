@@ -13,7 +13,7 @@ import javax.servlet.http.HttpServletResponse;
 /**
  * Servlet implementation class JspServlet
  */
-@WebServlet({ "/jspServlet", "/jsp" })
+//@WebServlet({ "/jspServlet", "/jsp" })
 public class JspServlet extends HttpServlet {
 	private static final long serialVersionUID = 1L;
        

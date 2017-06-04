@@ -12,7 +12,8 @@ import javax.servlet.http.HttpServletResponse;
 /**
  * Servlet implementation class HelloServlet
  */
-@WebServlet("/helloServlet")
+// Servelet 3.0 can work with this annotation without the need of web.xml
+//@WebServlet("/helloServlet")
 public class HelloServlet extends HttpServlet {
 	private static final long serialVersionUID = 1L;
        
